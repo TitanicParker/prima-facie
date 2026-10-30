@@ -8,6 +8,9 @@
 
 ## Executive case statement
 
+**Repository evidence access:** [Counsel's entrance](index.html) · [Searchable clinical record](record.html) · [Complete canonical record](REPAIRED_CANONICAL_V2.md) · [Original handwriting and readable transcription](The_Record_Before_the_Record_Updated.html) · [Prima facie presentation](Prima_Facie_Documentary_Case_For_Counsel_2026.html).
+
+
 On 29 June 2017 the GP referred a connected and deteriorating neurological presentation. It involved painful feet and toe-clawing together with abnormal gait, rigidity, increased tone and worsening dexterity. The hospital assessed Parkinsonism, documented a lower-limb posture suggestive of dystonia rather than genuine foot drop, and treated leg tension with clonazepam. It also recorded structural foot pathology and arranged Podiatry input. Those were real clinical activities. **The surviving documentation does not, however, demonstrate a completed, reasoned neurological resolution of the relationship between the painful toe-clawing and the movement disorder.**
 
 The treating neurologist's three original handwritten interview pages document a longstanding condition, an earlier 2014 presentation with arm-and-leg tension, the patient's belief that the disabling 2017 condition represented the maturation of the earlier symptoms, and a change in pain after he left bar work in 2012. Reduced standing-related foot pain made persistent leg tension easier to distinguish. **A distinction between sensations is not a diagnosis of separate diseases.** The final impression attributed a marked separation to the patient and offered possible secondary peripheral neuropathy while expressly saying the relationship was **“Not clear.”** The management plan then referred **“As per above.”**
@@ -51,7 +54,7 @@ The subsequent records show continuing pain, motor treatment, neurological medic
 
 **Primary layer:** the canonical 9,007-line medical-record transcription, `CANONICAL_RECORD_V1.0_RESTORED(3).md`, uses immutable-looking `CLIN` labels to locate passages. These labels are the transcription's references, not independently authenticated hospital entry identifiers. Copies of native originals are controlling for authorship, authenticity, handwriting and timestamps. The GP export includes some repeated entries; repeated transcription should not be mistaken for separate clinical encounters.
 
-**Manuscript layer:** the three original handwritten interview images are embedded in `The_Record_Before_the_Record_Updated(1).html`, with a readable, punctuation-normalised and patient-assisted transcription beneath each. That transcription expressly corrects an apparent dictation error concerning **bar work** and **2012**, and is **not** a diplomatic letter-by-letter palaeographic edition. For GitHub portability, counsel should export the embedded images to `evidence/handwritten-2017/page-1.jpg`, `page-2.jpg`, `page-3.jpg` and verify them before activating the placeholder relative image links below. No such repository image paths are asserted to exist at present. The actual embedded source images remain in the supplied HTML exhibit.
+**Manuscript layer:** the three original handwritten interview images are embedded in `The_Record_Before_the_Record_Updated.html`, with a readable, punctuation-normalised and patient-assisted transcription beneath each. That transcription expressly corrects an apparent dictation error concerning **bar work** and **2012**, and is **not** a diplomatic letter-by-letter palaeographic edition. The original photographed pages and their readable transcriptions are now available in the repository in [The Record Before the Record](The_Record_Before_the_Record_Updated.html). This is the controlling published exhibit for the handwriting. Separate image exports are not necessary to access the uploaded pages.
 
 **Firsthand testimony:** the 10 July protest and student involvement are reported from the patient's direct recollection. Documentary silence neither disproves the occurrence nor corroborates its precise words. The omission from the final account is itself independently checkable. Testimony and document must be separately attributed.
 
@@ -65,11 +68,11 @@ The subsequent records show continuing pain, motor treatment, neurological medic
 
 ## The original handwritten interview — 3 July 2017
 
-**Provenance:** treating neurologist’s face-to-face history, three manuscript pages dated 3 July 2017; images and page-paired readable transcripts supplied in `The_Record_Before_the_Record_Updated(1).html`. The source HTML contains embedded original images; the Markdown cannot embed those bytes without duplicating 1MB of binary data. Its accessible exhibit link is [the source HTML containing all three embedded images](The_Record_Before_the_Record_Updated%281%29.html) *only if this file is published alongside the Markdown*. Until images are exported into the GitHub repository, the `evidence/...` image destinations below are **designated, not confirmed live links**.
+**Provenance:** treating neurologist’s face-to-face history, three manuscript pages dated 3 July 2017; images and page-paired readable transcripts supplied in `The_Record_Before_the_Record_Updated.html`. The source HTML contains embedded original images; the Markdown cannot embed those bytes without duplicating 1MB of binary data. Its published exhibit is [The Record Before the Record — photographs and readable transcriptions](The_Record_Before_the_Record_Updated.html). The page contains the original images embedded within the document.
 
 ### Original manuscript page 1 of 3
 
-**Image:** [view the embedded original in the supplied source HTML](The_Record_Before_the_Record_Updated%281%29.html#page-1) (relative link works if that supplied HTML is deployed alongside this Markdown). **Designated future standalone exhibit:** `evidence/handwritten-2017/page-1.jpg` (not verified as a repository file). **Transcription:** accompanying readable, editorially normalised source transcription, *not* an independently certified diplomatic transcription:
+**Image:** [View the published handwritten interview and page-paired transcription](The_Record_Before_the_Record_Updated.html). **Transcription:** accompanying readable, editorially normalised source transcription, *not* an independently certified diplomatic transcription:
 
 > Where do I begin?
 > 
@@ -85,7 +88,7 @@ The subsequent records show continuing pain, motor treatment, neurological medic
 
 ### Original manuscript page 2 of 3
 
-**Image:** [view the embedded original in the supplied source HTML](The_Record_Before_the_Record_Updated%281%29.html#page-2) (relative link works if that supplied HTML is deployed alongside this Markdown). **Designated future standalone exhibit:** `evidence/handwritten-2017/page-2.jpg` (not verified as a repository file). **Transcription:** accompanying readable, editorially normalised source transcription, *not* an independently certified diplomatic transcription:
+**Image:** [View the published handwritten interview and page-paired transcription](The_Record_Before_the_Record_Updated.html). **Transcription:** accompanying readable, editorially normalised source transcription, *not* an independently certified diplomatic transcription:
 
 > Was diagnosed with anxiety & depression then — Dr Dalton in Oranmore. So after 24 hours [Psychiatry] said it wasn't & sent him to MAU.
 > 
@@ -99,7 +102,7 @@ The subsequent records show continuing pain, motor treatment, neurological medic
 
 ### Original manuscript page 3 of 3
 
-**Image:** [view the embedded original in the supplied source HTML](The_Record_Before_the_Record_Updated%281%29.html#page-3) (relative link works if that supplied HTML is deployed alongside this Markdown). **Designated future standalone exhibit:** `evidence/handwritten-2017/page-3.jpg` (not verified as a repository file). **Transcription:** accompanying readable, editorially normalised source transcription, *not* an independently certified diplomatic transcription:
+**Image:** [View the published handwritten interview and page-paired transcription](The_Record_Before_the_Record_Updated.html). **Transcription:** accompanying readable, editorially normalised source transcription, *not* an independently certified diplomatic transcription:
 
 > where I could feel tension.
 > 
@@ -453,7 +456,7 @@ Issues 1–17 concern the founding event and the clinical-documentary account; 1
 | **E01** | GP longitudinal record (April–June 2017) | Canonical `CLIN-000018–000225`; full primary export source should be preserved. |
 | **E02** | Full GP urgent 29 June referral | `CLIN-000815–000890`; retain native letter. |
 | **E03** | Internal abbreviated hospital referral précis | Referenced in case materials; preserve native source/metadata and compare literally with E02. |
-| **E04–E06** | Handwritten neurologist interview pages 1–3 | Original images embedded in supplied `The_Record_Before_the_Record_Updated(1).html`; readable patient-assisted transcripts above; stand-alone files not yet exported to repository. |
+| **E04–E06** | Handwritten neurologist interview pages 1–3 | [Original photographed handwritten pages and readable transcriptions](The_Record_Before_the_Record_Updated.html), published in this repository; page transcriptions above. |
 | **E07** | July neurological examination and impression | `CLIN-001084–001149`; native notes and examination video (recorded at `CLIN-001106`) if retained. |
 | **E08** | Clonazepam and Podiatry records | `CLIN-001651–001654`; original drug chart and Podiatry files needed. |
 | **E09** | Meeting and specialist correspondence | `CLIN-001153–001171`, `CLIN-003434–003435`; native meeting records absent. |
@@ -475,7 +478,7 @@ Other target originals: admission ward/consultant round notes, nursing and medic
 
 ### Source-path discipline for GitHub
 
-This file must be independently intelligible without the eventual `index.html`. The canonical transcription and original-image HTML are supplied files, but this commission does **not** establish that they already occupy any path in a GitHub repository. Put originals under stable controlled exhibit paths only after their existence, hashes and disclosure status are verified. Do not commit sensitive identifiable clinical records to a public repository without appropriate access control and redaction. Every future relative exhibit link should be tested by the repo maintainer before publication.
+This file must be independently intelligible without the eventual `index.html`. The [canonical transcription](REPAIRED_CANONICAL_V2.md) and [original-image HTML exhibit](The_Record_Before_the_Record_Updated.html) are published in this repository. The [searchable record browser](record.html) provides an additional navigation layer without modifying the canonical source. Put originals under stable controlled exhibit paths only after their existence, hashes and disclosure status are verified. Do not commit sensitive identifiable clinical records to a public repository without appropriate access control and redaction. Every future relative exhibit link should be tested by the repo maintainer before publication.
 
 ---
 
